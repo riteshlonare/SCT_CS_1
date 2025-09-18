@@ -32,3 +32,5 @@ def main():
     else:
         result = caesar_decrypt(message, shift)
         print(f"Decrypted message: {result}")
+  if __name__ == "__main__":
+    main()      
